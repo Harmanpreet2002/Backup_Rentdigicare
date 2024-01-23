@@ -1,0 +1,17 @@
+.star_container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.star_container img{
+    height: 40px;
+    width: 40px;
+}
+
+@media (max-width: 570px) {
+    .star_container img{
+        height: 30px;
+        width: 30px;
+    }
+}
